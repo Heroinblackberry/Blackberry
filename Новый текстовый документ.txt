@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<title> ак € провел лето</title>
+	<style>
+	body
+	{
+	background-image: url(http://t1.ftcdn.net/jpg/00/51/06/70/220_F_51067052_XV7d9pP1HSgMicxapvBbgPtYkgOyJObh.jpg);
+	}
+	h1
+	{
+	color: #140f0b;
+	text-align: center;
+	font: 30pt comic sans ms;
+	}
+	.kaef
+	{
+	color: #140f0b;
+	text-align: center;
+	font: 20pt comic sans ms;
+	}
+	</style>
+</head>
+<body>
+<h1> ак € провел лето</h1>
+<p><center> 
+	<img src="https://pp.vk.me/c633718/v633718507/34fe1/Lgc_lHvAHDs.jpg" width="200" height="255" border="2">
+	<img src="https://pp.vk.me/c633718/v633718507/34fd0/Wcae35IApmk.jpg" width="310" height="255" border="2">
+	<img src="https://pp.vk.me/c631929/v631929507/3cf56/FCHp_rCJRSo.jpg" width="330" height="255" border="2">
+	<img src="https://pp.vk.me/c633718/v633718507/34fc7/7vRc1wNrPt8.jpg" width="240" height="255" border="2">
+</center></p>
+<p><center>
+	<img src="https://pp.vk.me/c633718/v633718507/34f90/S19NLgLbcQQ.jpg" width="310" height="255" border="2">
+	<img src="https://pp.vk.me/c630425/v630425507/41280/-GmK65uY8do.jpg" width="270" height="255" border="2">
+	<img src="https://pp.vk.me/c633718/v633718507/34f4c/JU4cAxbxV58.jpg" width="240" height="255" border="2">
+</center></p>
+<p class="kaef">Ћето 2016 года € провела со своими самыми близкими людьми, хоть и планировала его совсем иначе. ј самое главное, что прошло оно не в ћоскве. ѕочти каждый день € была на дачах: то на своей, то на даче подруги, то у друга. “ак как все мои близкие друзь€ знают друг друга мы собирались все вместе. —вежий воздух, солнце, спелые овощи и фрукты, прогулки по пол€м, мороженое, подвижные игры, теплые вечера, комары, речка, смех и уют - вот залог отличного лета. » пусть кажетс€, что оно слишком простое, но с возрастом начинаешь ценить прелести деревенской жизни, а порой и уединенность.</center></p>
+</body>
+</html>
