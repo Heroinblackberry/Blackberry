@@ -13,13 +13,6 @@
 		width: 100%;
 		background: url(header.png);
 	}
-.logo
-	{
-		margin: 70px;
-		padding: 90px 60px 20px 20px;
-		height: 100%;
-		width: 100%;
-	}
 p 
 	{
 		margin: 0;
@@ -42,32 +35,42 @@ lol
 		text-shadow: none;
 		font: 10pt Arial;
 		color: #000;
-		margin: 0px 0px 0px 620px;
+		margin: 0px 0px 0px 600px;
 		letter-spacing: 0px;
 	}
 .list-menu
 	{
-		width: 100%;
+		width: 80%;
 		margin: 0px 0px 0px 90px;
+		background: #ffde29;
+		border-radius: 10px;
 	}
 .list-menu li
 	{
 		display: block;
 		float: left;
 		height: 40 px;
-		color: #888;
-		font-size: 16pt;
-		padding: 4px 40px 4px 40px;
-		text-transform: uppercase;
+		color: #000;
+		text-shadow: white 1px 1px 1px;
+		font: 10pt Arial;
+		padding: 10px 42px 10px 42px;
 		cursor: pointer;
-		border-left: outset #000 1px;
-		background: #ffde29;
+		border-image: url(SEPARATOR1.png) 0 0 0 5;
+		/*border-left: outset #888 1px;*/
+	    /*background: #ffde29;*/
+		background: linear-gradient(to bottom, #ffe937, #ffd31b);
+		box-shadow: #888 1px 1px 1px;
 	}
 .list-menu li:hover
 	{
-		color: #000;
+		color: #888;
 	}
 .list-menu li:first-child
 	{
-		border-left: none;
+		border-image: url(border1.png) 0 0 0 9; 
+		border-radius: 5px 0px 0px 5px;	
+	}
+.list-menu li:last-child	
+	{
+		border-radius: 0px 5px 5px 0px;	
 	}
