@@ -1,0 +1,546 @@
+﻿*
+{
+	padding: 0;
+}
+/* Параметры для "тела" документа */
+body
+	{
+		background: #fff;
+		margin: 0;
+		padding: 0;
+		height: 100%;
+		width: 100%;
+		background: url(header.png);
+		background-repeat: no-repeat;
+		background-size: 100%;
+	}
+/* Размеры для шапки */
+.header
+	{
+		margin: 4% 0 0% 10%;
+		height: 200%;
+		width: 80%;
+	}
+/* Очищающий */
+.clear
+	{
+		clear: both;
+	}
+/* Стиль для 1 слова заголовка */
+p 
+	{
+		margin-left: 5%;
+		margin-bottom: 2%;
+		/* padding: 35px 0px 20px 160px; */
+		font: 26pt 'Arial Unicode MS';
+		color: #52450a;
+		text-shadow: white 1px 1px 1px;
+		letter-spacing: -1px;
+	}
+/* Стиль для 2 слова заголовка */
+span
+	{
+		margin-left: 1%;
+		font: 17pt 'Arial Unicode MS';
+		color: #52450a;
+		text-shadow: white 1px 1px 1px;
+		letter-spacing: -1px;
+	}
+/* Стиль для карты сайта и rss */
+lol
+	{
+		text-shadow: none;
+		font: 10pt 'Arial Unicode MS';
+		color: #000;
+		float: right;
+		margin-top:17px;
+		margin-right: 1%;
+		letter-spacing: 0px;
+	}
+/* Стиль для меню */
+.list-menu
+	{
+		width: 100%;
+		height: 20%;
+		margin: 0% 0% 0% 2.3%;
+		background: #ffde29;
+		border-radius: 10px;
+	}
+/* Стиль для каждой иконки меню */
+.list-menu li
+	{
+		display: block;
+		float: left;
+		height: 1.8em;
+		width: 16%;
+		color: #000;
+		text-shadow: white 1px 1px 1px;
+		font: 10pt 'Arial Unicode MS';
+		text-align: center;
+		padding-top: 6px;
+		/*padding: 10px 42px 10px 42px;*/
+		cursor: pointer;
+		border-image: url(SEPARATOR1.png) 0 0 0 5;
+		background: linear-gradient(to bottom, #ffe937, #ffd31b);
+		box-shadow: #888 1px 1px 1px;
+	}
+/* Стиль для наведения на кнопку меню */
+.list-menu li:hover
+	{
+		color: #888;
+	}
+/* Стиль для первой кнопки */
+.list-menu li:first-child
+	{
+		border-image: url(border1.png) 0 0 0 9; 
+		border-radius: 5px 0px 0px 5px;	
+	}
+/* Стиль для последней кнопки */
+.list-menu li:last-child	
+	{
+		border-radius: 0px 5px 5px 0px;	
+	}
+/* Параметры и стиль для верхнего бокса */
+.featurebox
+	{
+		background-image: url('Layer 16_1.png');
+		background-position: left;
+		background-size: cover;
+		border-radius: 7px;
+		background-repeat: no-repeat;
+		width: 75%;
+		margin-top: 3%;
+		position: relative;
+		left: 14%;
+	}
+/* Стиль для заголовка 1 уровня */
+h1
+	{
+		margin: 0;
+		padding: 3% 0% 0% 5%;
+		font: 20pt 'Arial Unicode MS';
+		color: #52450a;
+		text-shadow: white 1px 1px 1px;
+		letter-spacing: -1px;
+		
+	}
+/*Параметры для фона левого текста */
+.kavichky
+	{
+		/* padding: 10px 10px 30px 10px; */
+		margin: 0% 2% 0% 4%;
+		background-image: url(copy.png);
+		background-size: 300px;
+		background-position: left;
+		background-repeat: no-repeat;
+	}
+/* Стиль для основного текста*/
+.lorem
+	{
+		margin: 0%;
+		padding: 33px 10px 0px 35px;
+		font: 10pt 'Georgia';
+		font-style: italic;
+		line-height: 1.5;
+		color: #494949;
+		text-shadow: none;
+	}
+/*Стиль для вспомогательного текста*/
+.aptent
+	{
+		margin-top: 0;
+		margin-left: 4%;
+		padding: 0px 10px 29px 0px;
+		font: 8pt 'Georgia';
+		line-height: 1.5;
+		font-weight: 900;
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px;
+	}
+/*Параметры для картинки в верхнем боксе */
+.pechenka
+	{
+		position: absolute;
+		left: 47%;
+		top: -30%;
+		width: 50%;
+	}
+/*Параметры для левого блока в контенте*/
+.chocolate
+	{
+		margin: 0% 2% 0% 4%;
+		background-color: #f1f5f6;
+		border-radius: 7px;
+		width: 22%;
+		position: relative;
+		left: 10%;
+	}
+/*Стиль для заголовка 2 уровня */
+h2
+	{
+		margin: 0;
+		padding: 3% 0% 0% 7%;
+		font: 17pt 'Georgia';
+		color: #52450a;
+	}
+/*Стиль для основного текста в левом и среднем блоках контента */
+.dolor
+	{
+		margin: 0%;
+		padding: 4% 2% 0% 7%;
+		font: 10pt 'Georgia';
+		color: #494949;
+		line-height: 1.5;
+		text-shadow: none;	
+	}
+/*Стиль для вспомогательного текста в левом  и среднем блоках контента */
+.diam
+	{
+		margin-top: 1%;
+		margin-left: 4%;
+		padding: 4% 2% 5% 3%;
+		font: 9pt 'Georgia';
+		font-weight: 900;
+		text-decoration: underline;
+		line-height: 1.5;
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px;
+	}
+/*Параметры картинки в левом блоке контента */
+.choco
+	{
+		position: absolute;
+		left: 57%;
+		top: 29%;
+		width: 50%;	
+	}
+/*Параметры для среднего блока контента */
+.milk
+	{
+		margin: 0% 2% 0% 4%;
+		background-color: #f1f5f6;
+		border-radius: 7px;
+		width: 22%;
+		height: 28.2%;
+		position: absolute;
+		left: 33%;	
+		top: 61.4%;
+	}
+/*Параметры картинки среднего блока контента*/
+.miilk
+	{
+		position: absolute;
+		left: 57%;
+		top: -3%;
+		width: 50%;	
+	}
+/*Стиль для заголовка 3 уровня */
+h3
+	{
+		margin: 0 0 0 2%;
+		padding: -2% 0 0 0;
+		font: 8pt 'Georgia';
+		color: #2e586d;	
+		font-weight: 900;
+	}
+/*Параметры правого блока контента */
+.news
+	{
+		margin: 0% 2% 0% 4%;
+		width: 22%;
+		height: 28.2%;
+		position: absolute;
+		left: 56%;	
+		top: 61.4%;
+	}
+/*Стиль для основного текста верхнего подблока правого блока  */
+.dolor2
+	{
+		margin: 0%;
+		padding: 19% 2% 0% 10%;
+		font: 9pt 'Georgia';
+		color: #494949;
+		line-height: 1.5;
+		text-shadow: none;	
+		letter-spacing: 0.5px;
+	}
+/* Стиль для вспомогательного текста верхнего подблока правого блока контента */
+.diam2
+	{
+		margin-top: 0%;
+		padding: 0% 2% 5% 5%;
+		font: 8pt 'Georgia';
+		font-weight: 900;
+		text-decoration: underline;
+		line-height: 1.5;
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 1px;
+	}
+/* Стиль картинки над правым блоком контента */
+.rss
+	{
+		position: absolute;
+		left: 110%;
+		top: 5%;
+		width: 50%;		
+	}
+/* Стиль для текста над правым блоком контента */
+.get
+	{
+		position: absolute;
+		left: 16%;
+		top: 2%;
+		width: 50%;	
+		font: 9pt 'Georgia';
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px;	
+	}
+/*Параметры для подблока правого блока*/
+.heading
+	{
+		position: absolute;
+		left: 8%;
+		top: 13%;
+		width: 124%;	
+		font: 9pt 'Georgia';
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px;	
+	}
+	/* Стиль для заголовка 4 уровня */
+h4
+	{
+		margin: 0 0 0 2%;
+		padding: -2% 0 0 0;
+		font: 8pt 'Georgia';
+		color: #2e586d;	
+		font-weight: 900;
+	}
+	/* Параметры для нижнего подблока правого блока */
+.heading2
+	{
+		position: absolute;
+		left: 8%;
+		top: 60%;
+		width: 124%;	
+		font: 9pt 'Georgia';
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px;	
+	}
+/* Стиль для основного текста нижнего подблока правого блока */
+.dolor3
+	{
+		margin: 0%;
+		padding: 1% 2% 0% 10%;
+		font: 9pt 'Georgia';
+		color: #494949;
+		line-height: 1.5;
+		text-shadow: none;	
+		letter-spacing: 0.5px;
+	}
+	/* Стиль для вспомогательного текста нижнего подблока правого блока */
+.diam3
+	{
+		margin-top: 0%;
+		padding: 0% 2% 5% 5%;
+		font: 8pt 'Georgia';
+		font-weight: 900;
+		text-decoration: underline;
+		line-height: 1.5;
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 1px;
+	}
+/* Параметры для футера */
+.footer
+	{
+		width: 80%;
+		height: 100%;
+		background-image: url(footer.png);
+		background-repeat: no-repeat;
+		background-size: 106%;
+		margin: 1% 13% 0% 12.5%;
+	}
+	/* Стиль для левого заголова в футере */
+.mission
+	{
+		padding: 4% 0% 0% 0%;
+		font: 17pt 'Georgia';
+		color: #52450a;
+		text-shadow: none;
+		letter-spacing: 0.5px;
+	}
+/* Стиль для основного текста в левой части футера*/
+.eu
+	{
+		margin: -1% 0 0 4%;
+		background-color: #fbe46b;
+		border-radius: 7px;
+		color: #52450a;
+		padding: 1%;
+		width: 30%;
+		position: relative;
+		font: 9pt 'Georgia';
+		letter-spacing: 1px;
+		line-height: 1.5;
+		text-shadow: none;
+	}
+/* Параметры для списка в футере*/
+.list
+	{
+		list-style-type: none;
+		margin-top: 0%;
+	}
+/* Стиль для списка в футере */	
+.list li
+	{
+		
+		padding: 1% 0% 0% 5%;
+		width: 30%;
+		color: #52450a;
+		position: relative;
+		font: 9pt 'Georgia';
+		letter-spacing: 1px;
+		text-shadow: none;
+	}
+/*Стиль для заголова 5 уровня */
+h5
+	{
+		position: absolute;
+		padding: 4% 0% 0% 0%;
+		font: 17pt 'Georgia';
+		color: #52450a;
+		left: 58%;
+		top: 85.6%;	
+		text-shadow: none;
+		letter-spacing: 0.5px;
+	}
+/* Стиль для правого заголова футера */
+.fancy
+	{
+		position: absolute;
+		padding: 4% 0% 0% 0%;
+		font: 9pt 'Georgia';
+		color: #52450a;
+		left: 65%;
+		top: 90.9%;	
+		text-shadow: none;
+		letter-spacing: 0.5px;
+	}
+/* Стиль для заголова формы отправки сообщений */
+.mes
+	{
+		position: absolute;
+		padding: 4% 0% 0% 0%;
+		font: 9pt 'Georgia';
+		color: #52450a;
+		left: 53.3%;
+		font-weight: 900;
+		top: 96%;	
+		text-shadow: none;
+		letter-spacing: 0.5px;
+	}
+/* Стиль для формы отправки сообщений */
+.inp1
+	{
+		position: absolute;
+		padding: 4% 0% 0% 0%;
+		left: 65%;
+		top: 105%;	
+		width: 24%;
+		border-color: #f4d00c;
+		border-style: solid;
+		background-color: #fdf6ce;
+	}
+/* Стиль для заголова формы мыла */
+.mail
+	{
+		position: absolute;
+		padding: 4% 0% 0% 0%;
+		font: 9pt 'Georgia';
+		color: #52450a;
+		left: 53.3%;
+		top: 108%;	
+		text-shadow: none;
+		letter-spacing: 0.5px;
+	}
+/* Стиль для формы мыла */
+.inp2
+	{
+		position: absolute;
+		padding: 1% 0% 0% 0%;
+		left: 65%;
+		top: 117%;	
+		width: 15%;
+		border-color: #f4d00c;
+		border-style: solid;
+		background-color: #fdf6ce;
+	}
+/* Стиль для кнопки отправки формы */
+.send
+	{
+		width: 6%;
+		height: 4%;
+		position: absolute;
+		left: 81%;
+		top: 117%;
+		border-radius: 10px;
+		display: block;
+		color: #52450a;
+		font: 10pt 'Arial Unicode MS';
+		text-align: center;
+		padding: 5px 0 0 0;
+		cursor: pointer;
+		text-shadow: white 1px 1px 1px;
+		background: linear-gradient(to bottom, #ffe937, #ffd31b);
+		box-shadow: #888 1px 1px 1px;
+		text-decoration: none;
+	}
+/* Стиль при наведениии на кнопку */
+.send:hover
+	{
+		color: #888;
+	}
+/* Стиль для линии */
+.hr
+{
+	color: #f4d00c;
+	width: 94%;
+	margin-left: 3%;
+}
+/* Параметры картинки в копирайте */
+.home
+{
+	position: absolute;
+	left: 15%;
+	top: 128%;
+	width: 1%;	
+}
+/* Стиль для копирайта */
+.copy
+{	
+	margin: 0%;
+	padding: 0.2% 2% 2% 5%;
+	font: 8pt 'Georgia';
+	color: #52450a;
+	line-height: 1.5;
+	text-shadow: none;	
+	letter-spacing: 0.5px;
+}
+/*Стиль для правой части копирайта */
+.pr
+{
+	position: absolute;
+	margin-bottom:0%;
+	left: 70%;
+	top: 126%;
+	width: 20%;	
+	font: 8pt 'Georgia';
+	letter-spacing: 1px;
+	color: #52450a;
+}
