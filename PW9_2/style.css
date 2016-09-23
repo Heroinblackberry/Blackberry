@@ -1,0 +1,29 @@
+body
+{
+background: linear-gradient(to top, #c1ffc1, #2e8b57);
+}
+b
+{
+color: white;
+font: 24pt 'Comic Sans MS'; 
+text-shadow: black 3px 1px 1px;
+}
+.op
+{
+ padding: 10px 0px 10px 0px;
+ font: 15pt 'Comic Sans MS';
+ text-shadow: green 1px 1px 1px;
+ 
+}
+.opp
+{
+ padding: 10px 0px 10px 0px;
+ font: 15pt 'Comic Sans MS';
+ text-shadow: green 1px 1px 1px;
+ width: 20%;
+}
+.S
+{
+width: 100%;
+border-color: green;
+}
