@@ -18,7 +18,7 @@ body
 .header
 	{
 		margin: 4% 0 0% 10%;
-		height: 200%;
+		height: 100%;
 		width: 80%;
 	}
 /* Очищающий */
@@ -72,7 +72,7 @@ lol
 		display: block;
 		float: left;
 		height: 1.8em;
-		width: 16%;
+		width: 15%;
 		color: #000;
 		text-shadow: white 1px 1px 1px;
 		font: 10pt 'Arial Unicode MS';
@@ -161,20 +161,22 @@ h1
 /*Параметры для картинки в верхнем боксе */
 .pechenka
 	{
-		position: absolute;
-		left: 47%;
-		top: -30%;
+		position: relative;
+		margin: -30% 0 0 42%;
+		/*left: 45%;
+		top: -50%;*/
 		width: 50%;
 	}
 /*Параметры для левого блока в контенте*/
 .chocolate
 	{
-		margin: 0% 2% 0% 4%;
+		margin: 2% 2% 0% 4%;
 		background-color: #f1f5f6;
 		border-radius: 7px;
 		width: 22%;
 		position: relative;
 		left: 10%;
+		float: left;
 	}
 /*Стиль для заголовка 2 уровня */
 h2
@@ -219,14 +221,17 @@ h2
 /*Параметры для среднего блока контента */
 .milk
 	{
-		margin: 0% 2% 0% 4%;
+		margin: 2% 2% 0% 10%;
 		background-color: #f1f5f6;
 		border-radius: 7px;
 		width: 22%;
-		height: 28.2%;
-		position: absolute;
-		left: 33%;	
-		top: 61.4%;
+		height: 29%;
+		position: relative;
+		float: left;
+	}
+.middlecontent
+	{
+	position: relative;
 	}
 /*Параметры картинки среднего блока контента*/
 .miilk
@@ -239,7 +244,7 @@ h2
 /*Стиль для заголовка 3 уровня */
 h3
 	{
-		margin: 0 0 0 2%;
+		margin: 5% 0 0 2%;
 		padding: -2% 0 0 0;
 		font: 8pt 'Georgia';
 		color: #2e586d;	
@@ -248,12 +253,11 @@ h3
 /*Параметры правого блока контента */
 .news
 	{
-		margin: 0% 2% 0% 4%;
+		margin: 0% 2% 0% 0%;
 		width: 22%;
 		height: 28.2%;
-		position: absolute;
-		left: 56%;	
-		top: 61.4%;
+		position: relative;
+		float: left;	
 	}
 /*Стиль для основного текста верхнего подблока правого блока  */
 .dolor2
@@ -283,7 +287,7 @@ h3
 .rss
 	{
 		position: absolute;
-		left: 110%;
+		left: 100%;
 		top: 5%;
 		width: 50%;		
 	}
@@ -302,9 +306,9 @@ h3
 /*Параметры для подблока правого блока*/
 .heading
 	{
-		position: absolute;
+		position: relative;
 		left: 8%;
-		top: 13%;
+		margin: 10% 0 0 0;
 		width: 124%;	
 		font: 9pt 'Georgia';
 		color: #494949;
@@ -323,7 +327,7 @@ h4
 	/* Параметры для нижнего подблока правого блока */
 .heading2
 	{
-		position: absolute;
+		position: relative;
 		left: 8%;
 		top: 60%;
 		width: 124%;	
