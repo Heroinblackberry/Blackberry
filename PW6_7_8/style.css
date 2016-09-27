@@ -1,32 +1,31 @@
-п»ї*
-{
-	padding: 0;
-}
-/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ "С‚РµР»Р°" РґРѕРєСѓРјРµРЅС‚Р° */
+		/* 	Убираем поля для всех элементов */
+*
+	{
+		padding: 0;
+	}
+
+		/* Параметры для "тела" документа */
 body
 	{
 		background: #fff;
-		margin: 0;
-		padding: 0;
+		margin: 0%;
+		padding: 0%;
 		height: 100%;
 		width: 100%;
 		background: url(header.png);
 		background-repeat: no-repeat;
 		background-size: 100%;
 	}
-/* Р Р°Р·РјРµСЂС‹ РґР»СЏ С€Р°РїРєРё */
+	
+		/* Размеры для шапки */
 .header
 	{
 		margin: 4% 0 0% 10%;
 		height: 100%;
 		width: 80%;
 	}
-/* РћС‡РёС‰Р°СЋС‰РёР№ */
-.clear
-	{
-		clear: both;
-	}
-/* РЎС‚РёР»СЊ РґР»СЏ 1 СЃР»РѕРІР° Р·Р°РіРѕР»РѕРІРєР° */
+	
+		/* Стиль для 1 слова заголовка */
 p 
 	{
 		margin-left: 5%;
@@ -37,7 +36,8 @@ p
 		text-shadow: white 1px 1px 1px;
 		letter-spacing: -1px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ 2 СЃР»РѕРІР° Р·Р°РіРѕР»РѕРІРєР° */
+	
+		/* Стиль для 2 слова заголовка */
 span
 	{
 		margin-left: 1%;
@@ -46,7 +46,8 @@ span
 		text-shadow: white 1px 1px 1px;
 		letter-spacing: -1px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РєР°СЂС‚С‹ СЃР°Р№С‚Р° Рё rss */
+	
+		/* Стиль для карты сайта и rss */
 lol
 	{
 		text-shadow: none;
@@ -57,7 +58,8 @@ lol
 		margin-right: 5%;
 		letter-spacing: 0px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РјРµРЅСЋ */
+
+		/* Стиль для меню */
 .list-menu
 	{
 		width: 100%;
@@ -66,7 +68,8 @@ lol
 		background: #ffde29;
 		border-radius: 10px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РєР°Р¶РґРѕР№ РёРєРѕРЅРєРё РјРµРЅСЋ */
+	
+		/* Стиль для каждой иконки меню */
 .list-menu li
 	{
 		display: block;
@@ -84,23 +87,33 @@ lol
 		background: linear-gradient(to bottom, #ffe937, #ffd31b);
 		box-shadow: #888 1px 1px 1px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РЅР°РІРµРґРµРЅРёСЏ РЅР° РєРЅРѕРїРєСѓ РјРµРЅСЋ */
+	
+		/* Стиль для наведения на кнопку меню */
 .list-menu li:hover
 	{
 		color: #888;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РїРµСЂРІРѕР№ РєРЅРѕРїРєРё */
+	
+		/* Стиль для первой кнопки */
 .list-menu li:first-child
 	{
 		border-image: url(border1.png) 0 0 0 9; 
 		border-radius: 5px 0px 0px 5px;	
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РїРѕСЃР»РµРґРЅРµР№ РєРЅРѕРїРєРё */
+	
+		/* Стиль для последней кнопки */
 .list-menu li:last-child	
 	{
 		border-radius: 0px 5px 5px 0px;	
 	}
-/* РџР°СЂР°РјРµС‚СЂС‹ Рё СЃС‚РёР»СЊ РґР»СЏ РІРµСЂС…РЅРµРіРѕ Р±РѕРєСЃР° */
+	
+		/* Очищающий */
+.clear
+	{
+		clear: both;
+	}
+	
+		/* Параметры и стиль для верхнего бокса */
 .featurebox
 	{
 		background-image: url('Layer 16_1.png');
@@ -114,7 +127,8 @@ lol
 		position: relative;
 		left: 13%;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІРєР° 1 СѓСЂРѕРІРЅСЏ */
+	
+		/* Стиль для заголовка 1 уровня */
 h1
 	{
 		margin: 0;
@@ -125,17 +139,18 @@ h1
 		letter-spacing: -1px;
 		
 	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ С„РѕРЅР° Р»РµРІРѕРіРѕ С‚РµРєСЃС‚Р° */
+	
+		/*Параметры для фона левого текста */
 .kavichky
 	{
-		/* padding: 10px 10px 30px 10px; */
 		margin: 0% 2% 0% 4%;
 		background-image: url(copy.png);
 		background-size: 390px;
 		background-position: left;
 		background-repeat: no-repeat;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РѕСЃРЅРѕРІРЅРѕРіРѕ С‚РµРєСЃС‚Р°*/
+	
+		/* Стиль для основного текста*/
 .lorem
 	{
 		margin: 0%;
@@ -147,13 +162,10 @@ h1
 		color: #494949;
 		text-shadow: none;
 	}
-/*РЎС‚РёР»СЊ РґР»СЏ РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅРѕРіРѕ С‚РµРєСЃС‚Р°*/
-/* .aptent */
+	
+		/*Стиль для вспомогательного текста*/
 kak
 	{
-		/* position: relative;
-		margin-top: 0;
-		margin-left: 4%; */
 		padding: 0px 0 29px 0%;
 		font: 8pt 'Georgia';
 		line-height: 1.5;
@@ -162,16 +174,22 @@ kak
 		text-shadow: none;
 		letter-spacing: 0.5px;
 	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ РєР°СЂС‚РёРЅРєРё РІ РІРµСЂС…РЅРµРј Р±РѕРєСЃРµ */
+	
+		/*Параметры для картинки в верхнем боксе */
 .pechenka
 	{
 		position: relative;
 		margin: -22% 0 0 48%;
-		/*left: 45%;
-		top: -50%;*/
 		width: 50%;
 	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ Р»РµРІРѕРіРѕ Р±Р»РѕРєР° РІ РєРѕРЅС‚РµРЅС‚Рµ*/
+	
+		/* Параметры для блока с контентом */
+.middlecontent
+	{
+	position: relative;
+	}
+	
+		/*Параметры для левого блока в контенте*/
 .chocolate
 	{
 		margin: 2% 2% 0% 4%;
@@ -182,7 +200,8 @@ kak
 		left: 10%;
 		float: left;
 	}
-/*РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІРєР° 2 СѓСЂРѕРІРЅСЏ */
+	
+		/*Стиль для заголовка 2 уровня */
 h2
 	{
 		margin: 0;
@@ -190,7 +209,8 @@ h2
 		font: 17pt 'Georgia';
 		color: #52450a;
 	}
-/*РЎС‚РёР»СЊ РґР»СЏ РѕСЃРЅРѕРІРЅРѕРіРѕ С‚РµРєСЃС‚Р° РІ Р»РµРІРѕРј Рё СЃСЂРµРґРЅРµРј Р±Р»РѕРєР°С… РєРѕРЅС‚РµРЅС‚Р° */
+	
+		/*Стиль для основного текста в левом и среднем блоках контента */
 .dolor
 	{
 		margin: 0%;
@@ -200,7 +220,8 @@ h2
 		line-height: 1.5;
 		text-shadow: none;	
 	}
-/*РЎС‚РёР»СЊ РґР»СЏ РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅРѕРіРѕ С‚РµРєСЃС‚Р° РІ Р»РµРІРѕРј  Рё СЃСЂРµРґРЅРµРј Р±Р»РѕРєР°С… РєРѕРЅС‚РµРЅС‚Р° */
+	
+		/*Стиль для вспомогательного текста в левом  и среднем блоках контента */
 .diam
 	{
 		margin-top: 1%;
@@ -214,7 +235,8 @@ h2
 		text-shadow: none;
 		letter-spacing: 0.5px;
 	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РєР°СЂС‚РёРЅРєРё РІ Р»РµРІРѕРј Р±Р»РѕРєРµ РєРѕРЅС‚РµРЅС‚Р° */
+	
+		/*Параметры картинки в левом блоке контента */
 .choco
 	{
 		position: absolute;
@@ -222,7 +244,8 @@ h2
 		top: 29%;
 		width: 50%;	
 	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ СЃСЂРµРґРЅРµРіРѕ Р±Р»РѕРєР° РєРѕРЅС‚РµРЅС‚Р° */
+	
+		/*Параметры для среднего блока контента */
 .milk
 	{
 		margin: 2% 2% 0% 10%;
@@ -233,11 +256,8 @@ h2
 		position: relative;
 		float: left;
 	}
-.middlecontent
-	{
-	position: relative;
-	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РєР°СЂС‚РёРЅРєРё СЃСЂРµРґРЅРµРіРѕ Р±Р»РѕРєР° РєРѕРЅС‚РµРЅС‚Р°*/
+	
+		/*Параметры картинки среднего блока контента*/
 .miilk
 	{
 		position: absolute;
@@ -245,16 +265,8 @@ h2
 		top: -3%;
 		width: 50%;	
 	}
-/*РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІРєР° 3 СѓСЂРѕРІРЅСЏ */
-h3
-	{
-		margin: 5% 0 0 2%;
-		padding: -2% 0 0 0;
-		font: 8pt 'Georgia';
-		color: #2e586d;	
-		font-weight: 900;
-	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР° РєРѕРЅС‚РµРЅС‚Р° */
+	
+		/*Параметры правого блока контента */
 .news
 	{
 		margin: 0% 2% 0% 0%;
@@ -263,7 +275,68 @@ h3
 		position: relative;
 		float: left;	
 	}
-/*РЎС‚РёР»СЊ РґР»СЏ РѕСЃРЅРѕРІРЅРѕРіРѕ С‚РµРєСЃС‚Р° РІРµСЂС…РЅРµРіРѕ РїРѕРґР±Р»РѕРєР° РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР°  */
+	
+		/*Параметры для подблока правого блока*/
+.heading
+	{
+		position: relative;
+		left: 6%;
+		margin: 12% 0 0 0;
+		width: 124%;	
+		font: 9pt 'Georgia';
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px;	
+	}
+	
+		/* Стиль для заголовка правого подблока */
+h
+	{
+			
+		font: 17pt 'Georgia';
+		color: #52450a;
+	}
+	
+		/* Стиль картинки над правым блоком контента */
+.rss
+	{
+		padding: 0% 0% 0% 10%;
+		width: 6%;		
+	} 
+
+		/* Стиль для текста над правым блоком контента */
+.get
+	{
+		font: 9pt 'Georgia';
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px; 
+	}
+	
+		/* Параметры для верхнего подблока правого блока */
+.heading2
+	{
+		position: relative;
+		padding: 6% 0 0 0;
+		left: 4%;
+		width: 124%;	
+		font: 9pt 'Georgia';
+		color: #494949;
+		text-shadow: none;
+		letter-spacing: 0.5px;	
+	}
+	
+		/* Стиль для заголовка 4 уровня */
+h4
+	{
+		margin: 0 0 0 2%;
+		padding: -2% 0 0 0;
+		font: 8pt 'Georgia';
+		color: #2e586d;	
+		font-weight: 900;
+	}
+	
+		/*Стиль для основного текста верхнего подблока правого блока  */
 .dolor2
 	{
 		margin: 0%;
@@ -274,7 +347,8 @@ h3
 		text-shadow: none;	
 		letter-spacing: 0.5px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅРѕРіРѕ С‚РµРєСЃС‚Р° РІРµСЂС…РЅРµРіРѕ РїРѕРґР±Р»РѕРєР° РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР° РєРѕРЅС‚РµРЅС‚Р° */
+	
+		/* Стиль для вспомогательного текста верхнего подблока правого блока контента */
 diam2
 	{
 		margin-top: 0%;
@@ -287,65 +361,10 @@ diam2
 		text-shadow: none;
 		letter-spacing: 1px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІРєР° РїСЂР°РІРѕРіРѕ РїРѕРґР±Р»РѕРєР° */
-h
-	{
-			
-		font: 17pt 'Georgia';
-		color: #52450a;
-	}
-/* РЎС‚РёР»СЊ РєР°СЂС‚РёРЅРєРё РЅР°Рґ РїСЂР°РІС‹Рј Р±Р»РѕРєРѕРј РєРѕРЅС‚РµРЅС‚Р° */
-.rss
-	{
-	/*  position: relative; */
-		/* margin: 1% 0 0 50%; */
-		padding: 0% 0% 0% 10%;
-		width: 6%;		
-	} 
-
-/* РЎС‚РёР»СЊ РґР»СЏ С‚РµРєСЃС‚Р° РЅР°Рґ РїСЂР°РІС‹Рј Р±Р»РѕРєРѕРј РєРѕРЅС‚РµРЅС‚Р° */
-.get
-	{
-		/* float: right;
-		margin: -5.5% -17% 0 0%;
-		right: 0%;
-		left: 60%;
-		top: -5%;
-		width: 50%; */
-		font: 9pt 'Georgia';
-		color: #494949;
-		text-shadow: none;
-		letter-spacing: 0.5px; 
-	}
-/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ Р»РёРЅРёРё */
-hr
-	{
-		width: 90%;
-		margin: 0 0 0 0;
-	}
-/*РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ РїРѕРґР±Р»РѕРєР° РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР°*/
-.heading
-	{
-		position: relative;
-		left: 6%;
-		margin: 12% 0 0 0;
-		width: 124%;	
-		font: 9pt 'Georgia';
-		color: #494949;
-		text-shadow: none;
-		letter-spacing: 0.5px;	
-	}
-	/* РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІРєР° 4 СѓСЂРѕРІРЅСЏ */
-h4
-	{
-		margin: 0 0 0 2%;
-		padding: -2% 0 0 0;
-		font: 8pt 'Georgia';
-		color: #2e586d;	
-		font-weight: 900;
-	}
-	/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ РЅРёР¶РЅРµРіРѕ РїРѕРґР±Р»РѕРєР° РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР° */
-.heading2
+	
+		
+		/* Параметры для нижнего подблока правого блока */
+.heading3
 	{
 		position: relative;
 		padding: 6% 0 0 5%;
@@ -355,19 +374,8 @@ h4
 		text-shadow: none;
 		letter-spacing: 0.5px;	
 	}
-/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ РІРµСЂС…РЅРµРіРѕ РїРѕРґР±Р»РѕРєР° РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР° */
-.heading3
-	{
-		position: relative;
-		padding: 6% 0 0 0;
-		left: 4%;
-		width: 124%;	
-		font: 9pt 'Georgia';
-		color: #494949;
-		text-shadow: none;
-		letter-spacing: 0.5px;	
-	}
-/* РЎС‚РёР»СЊ РґР»СЏ РѕСЃРЅРѕРІРЅРѕРіРѕ С‚РµРєСЃС‚Р° РЅРёР¶РЅРµРіРѕ РїРѕРґР±Р»РѕРєР° РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР° */
+	
+		/* Стиль для основного текста нижнего подблока правого блока */
 .dolor3
 	{
 		margin: 0%;
@@ -378,37 +386,26 @@ h4
 		text-shadow: none;	
 		letter-spacing: 0.5px;
 	}
-	/* РЎС‚РёР»СЊ РґР»СЏ РІСЃРїРѕРјРѕРіР°С‚РµР»СЊРЅРѕРіРѕ С‚РµРєСЃС‚Р° РЅРёР¶РЅРµРіРѕ РїРѕРґР±Р»РѕРєР° РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР° */
-.diam3
-	{
-		margin-top: 0%;
-		padding: 0% 2% 5% 5%;
-		font: 8pt 'Georgia';
-		font-weight: 900;
-		text-decoration: underline;
-		line-height: 1.5;
-		color: #494949;
-		text-shadow: none;
-		letter-spacing: 1px;
-	}
-	/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ С„СѓС‚РµСЂР° */
+	
+		/* Параметры для футера */
 .footer
 	{
-		width: 80%;
-		height: 100%;
+		width: 73%;
 		background-image: url(footer.png);
 		background-repeat: no-repeat;
 		background-size: 106%;
 		margin: 1% 13% 0% 12.5%;
 	}
-	/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ Р»РµРІРѕРіРѕ Р±Р»РѕРєР° С„СѓС‚РµСЂР° */
-.mission1
+	
+		/* Параметры для левого блока футера */
+.mission
 	{
 		position: relative;
 		float: left;
 	}
-	/* РЎС‚РёР»СЊ РґР»СЏ Р»РµРІРѕРіРѕ Р·Р°РіРѕР»РѕРІР° РІ С„СѓС‚РµСЂРµ */
-.mission
+	
+		/* Стиль для левого заголова в футере */
+.mission1
 	{
 		
 		padding: 5% 0% 0% 8%;
@@ -417,7 +414,8 @@ h4
 		text-shadow: none;
 		letter-spacing: 0.5px;
 	}
-	/* РЎС‚РёР»СЊ РґР»СЏ РѕСЃРЅРѕРІРЅРѕРіРѕ С‚РµРєСЃС‚Р° РІ Р»РµРІРѕР№ С‡Р°СЃС‚Рё С„СѓС‚РµСЂР°*/
+	
+		/* Стиль для основного текста в левой части футера*/
 .eu
 	{
 		margin: -1% 0 0 13%;
@@ -432,13 +430,15 @@ h4
 		line-height: 1.5;
 		text-shadow: none;
 	}
-	/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ СЃРїРёСЃРєР° РІ С„СѓС‚РµСЂРµ*/
+	
+		/* Параметры для списка в футере*/
 .list
 	{
 		list-style-type: none;
 		margin: 0.5% 0 0 10%;
 	}
-	/* РЎС‚РёР»СЊ РґР»СЏ СЃРїРёСЃРєР° РІ С„СѓС‚РµСЂРµ */	
+	
+		/* Стиль для списка в футере */	
 .list li
 	{
 		
@@ -450,7 +450,8 @@ h4
 		letter-spacing: 1px;
 		text-shadow: none;
 	}
-	/* РџР°СЂР°РјРµС‚СЂС‹ РґР»СЏ РїСЂР°РІРѕРіРѕ Р±Р»РѕРєР° С„СѓС‚РµСЂР° */
+	
+		/* Параметры для правого блока футера */
 .chat
 	{
 	position: relative;
@@ -458,7 +459,8 @@ h4
 	padding: -60% 0 0 0;
 	width: 50%;
 	}
-	/*РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІР° 5 СѓСЂРѕРІРЅСЏ */
+	
+		/*Стиль для заголова 5 уровня */
 h5
 	{
 		margin: 7.5% 60% 0 0%;
@@ -468,7 +470,8 @@ h5
 		letter-spacing: 0.5px;
 		width: 100%;
 	}
-	/* РЎС‚РёР»СЊ РґР»СЏ РїСЂР°РІРѕРіРѕ РїРѕРґР·Р°РіРѕР»РѕРІРєР° С„СѓС‚РµСЂР° */
+	
+		/* Стиль для правого подзаголовка футера */
 fancy
 	{
 		padding: 0% 0% 0% 2%;
@@ -477,11 +480,13 @@ fancy
 		text-shadow: none;
 		letter-spacing: 0.5px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІР° С„РѕСЂРјС‹ РѕС‚РїСЂР°РІРєРё СЃРѕРѕР±С‰РµРЅРёР№ */
+	
+		/* Стиль для заголова формы отправки сообщений */
 .mes
 	{
 		margin: 3% 0 0 0.5%;
 		position: relative;
+		float: left;
 		padding: 0% 0% 0% -10%;
 		font: 9pt 'Georgia';
 		color: #52450a;
@@ -489,93 +494,103 @@ fancy
 		text-shadow: none;
 		letter-spacing: 0.5px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ С„РѕСЂРјС‹ РѕС‚РїСЂР°РІРєРё СЃРѕРѕР±С‰РµРЅРёР№ */
+		
+		/* Стиль для формы отправки сообщений */
 .inp1
 	{
 		position: relative;
+		float: right;
 		padding: 0% 0% 10% 0%;
-		margin: 0% 0 0 4%;
+		margin: 3% 10% 0 0%;
 		width: 74%;
 		border-color: #f4d00c;
 		border-style: solid;
 		background-color: #fdf6ce;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ Р·Р°РіРѕР»РѕРІР° С„РѕСЂРјС‹ РјС‹Р»Р° */
+	
+		/* Стиль для заголова формы мыла */
 .mail
 	{
-		margin: 3% 0 0 0.5%;
+		margin: 20.5% 0 5% -11%;
 		position: relative;
-		padding: 0% 0% 0% -10%;
+		float: left;
 		font: 9pt 'Georgia';
 		color: #52450a;
 		text-shadow: none;
 		letter-spacing: 0.5px;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ С„РѕСЂРјС‹ РјС‹Р»Р° */
+	
+		/* Стиль для формы мыла */
 .inp2
 	{
 		position: relative;
+		float: right;
 		padding: 0% 0% 3% 0%;
-		margin: 0% 0 0 15%;
-		width: 60%;
+		margin: 3% 39% 0 0%;
+		width: 45%;
 		border-color: #f4d00c;
 		border-style: solid;
 		background-color: #fdf6ce;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ РєРЅРѕРїРєРё РѕС‚РїСЂР°РІРєРё С„РѕСЂРјС‹ */
-.send
+	
+		/* Стиль для кнопки отправки формы */
+send
 	{
-		width: 6%;
-		height: 4%;
-		padding: 0% 0% 3% 20%;
+		width: 14.5%;
+		margin: -6.5% 22% 0 0%;
 		position: relative;
-		border-radius: 10px;
+		float: right;
+		border-radius: 5px;
 		display: block;
 		color: #52450a;
 		font: 10pt 'Arial Unicode MS';
 		text-align: center;
-		padding: 5px 0 0 0;
+		padding: 6px 0 6px 0;
 		cursor: pointer;
 		text-shadow: white 1px 1px 1px;
 		background: linear-gradient(to bottom, #ffe937, #ffd31b);
 		box-shadow: #888 1px 1px 1px;
 		text-decoration: none;
 	}
-/* РЎС‚РёР»СЊ РїСЂРё РЅР°РІРµРґРµРЅРёРёРё РЅР° РєРЅРѕРїРєСѓ */
+	
+		/* Стиль при наведениии на кнопку */
 .send:hover
 	{
 		color: #888;
 	}
-/* РЎС‚РёР»СЊ РґР»СЏ Р»РёРЅРёРё */
+	
+		/* Стиль для линии */
 .hr
 {
 	color: #f4d00c;
-	width: 94%;
+	width: 93%;
 	margin-left: 3%;
 }
-/* РџР°СЂР°РјРµС‚СЂС‹ РєР°СЂС‚РёРЅРєРё РІ РєРѕРїРёСЂР°Р№С‚Рµ */
+		/* Параметры картинки в копирайте */
 .home
 {
 	position: relative;
-	left: 15%;
-	top: 128%;
+	float: left;
+	margin: 1.2% 0 0 3%;
 	width: 1%;	
 }
-/* РЎС‚РёР»СЊ РґР»СЏ РєРѕРїРёСЂР°Р№С‚Р° */
+		/* Стиль для копирайта */
 .copy
 {	
 	margin: 0%;
-	padding: 0.2% 2% 2% 5%;
+	padding: 0.8% 2% 2% 5%;
 	font: 8pt 'Georgia';
 	color: #52450a;
 	line-height: 1.5;
 	text-shadow: none;	
 	letter-spacing: 0.5px;
 }
-/*РЎС‚РёР»СЊ РґР»СЏ РїСЂР°РІРѕР№ С‡Р°СЃС‚Рё РєРѕРїРёСЂР°Р№С‚Р° */
+		/*Стиль для правой части копирайта */
 .pr
 {
 	position: relative;
+	float: right;
+	margin: -3.4% 3% 0 0;
 	width: 20%;	
 	font: 8pt 'Georgia';
 	letter-spacing: 1px;
