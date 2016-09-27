@@ -566,6 +566,7 @@ send
 	width: 93%;
 	margin-left: 3%;
 }
+
 		/* Параметры картинки в копирайте */
 .home
 {
@@ -574,6 +575,7 @@ send
 	margin: 1.2% 0 0 3%;
 	width: 1%;	
 }
+
 		/* Стиль для копирайта */
 .copy
 {	
@@ -585,6 +587,7 @@ send
 	text-shadow: none;	
 	letter-spacing: 0.5px;
 }
+
 		/*Стиль для правой части копирайта */
 .pr
 {
