@@ -1,0 +1,42 @@
+﻿*
+{
+	margin: 0;
+	padding: 0;
+}
+table
+{
+	border: 1px solid black;
+	border-color: #99ff99;
+}
+td
+{
+	border: 0px solid white;
+}
+.per
+{
+	background-color: #bbb;
+	border: 1px solid #bbb;
+}
+.vt
+{
+	background-color: #fff;
+	border: 1px solid #fff;
+}
+tr
+{
+	color: #49423d;
+	font: 11px Arial;
+}
+tr:first-child
+{
+	border: 1px solid black;
+	border-color: green;
+	background-color: green;
+	color: white;
+	font-weight: 900;
+	font: 16px Arial;	
+}
+img
+{
+	border: 1px solid black;
+}
